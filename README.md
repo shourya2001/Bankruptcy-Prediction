@@ -1,5 +1,5 @@
 # Bankruptcy-Prediction 
-<br>
+
 ## Introduction
 This is my first ML project.
 I downloaded the <a href="https://www.kaggle.com/fedesoriano/company-bankruptcy-prediction"> Company bankruptcy prediction </a> dataset from kaggle
@@ -19,10 +19,10 @@ I divided the data in train,validation and test sets.
 ### To solve the problem of imbalance I used undersampling and SMOTE for oversampling 
 For each of the two techniques I used to XGBRegressor and Catboost Classifier for making predictions.
 
-##### Undersampled data
+#### Undersampled data
 For the undersampled data the catboost classifier worked better with a f1-score of 0.90 over XGBRegressors score of 0.78
 
-##### SMOTE as Oversampling technique
+#### SMOTE as Oversampling technique
 After Oversampling, the overall results were better but the catboost classifier and XGBregressor had similar f1-scores of 0.99 and 0.98 respectively
 
 ## Conclusion
